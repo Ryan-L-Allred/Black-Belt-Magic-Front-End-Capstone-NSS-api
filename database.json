@@ -1,0 +1,287 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ryan Allred",
+      "email": "ryanallred91@gmail.com",
+      "isInstructor": false
+    },
+    {
+      "id": 2,
+      "name": "Evangelos",
+      "email": "evangelos@hotmail.com",
+      "isInstructor": true
+    },
+    {
+      "id": 3,
+      "name": "Reggie Williams",
+      "email": "rdubs88@yahoo.com",
+      "isInstructor": false
+    },
+    {
+      "id": 4,
+      "name": "Mike Westscott",
+      "email": "magicmike57@gmail.com",
+      "isInstructor": true
+    },
+    {
+      "id": 5,
+      "name": "Jackie Stevens",
+      "email": "stevenstkd@yahoo.com",
+      "isInstructor": true
+    },
+    {
+      "email": "jackrabbitslim94@yahoo.com",
+      "name": "Vincent Vega",
+      "isInstructor": false,
+      "id": 7
+    },
+    {
+      "email": "teacherman2000@hotmail.com",
+      "name": "Tracy Allred",
+      "isInstructor": true,
+      "id": 8
+    }
+  ],
+  "instructors": [
+    {
+      "id": 1,
+      "martialArtsId": 9,
+      "schoolId": 0,
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "martialArtsId": 12,
+      "schoolId": 0,
+      "userId": 4
+    },
+    {
+      "id": 3,
+      "martialArtsId": 1,
+      "schoolId": 0,
+      "userId": 5
+    }
+  ],
+  "martialArts": [
+    {
+      "id": 1,
+      "name": "Tae Kwon Do",
+      "countryId": 4,
+      "focusId": 1
+    },
+    {
+      "id": 2,
+      "name": "Karate",
+      "countryId": 1,
+      "focusId": 1
+    },
+    {
+      "id": 3,
+      "name": "Kung Fu",
+      "countryId": 3,
+      "focusId": 1
+    },
+    {
+      "id": 4,
+      "name": "Muay Thai",
+      "countryId": 2,
+      "focusId": 1
+    },
+    {
+      "id": 5,
+      "name": "Judo",
+      "countryId": 1,
+      "focusId": 2
+    },
+    {
+      "id": 6,
+      "name": "Hapkido",
+      "countryId": 4,
+      "focusId": 4
+    },
+    {
+      "id": 7,
+      "name": "Krav Maga",
+      "countryId": 8,
+      "focusId": 3
+    },
+    {
+      "id": 8,
+      "name": "Pencak Silat",
+      "countryId": 6,
+      "focusId": 3
+    },
+    {
+      "id": 9,
+      "name": "Sambo",
+      "countryId": 9,
+      "focusId": 4
+    },
+    {
+      "id": 10,
+      "name": "Eskrima",
+      "countryId": 7,
+      "focusId": 3
+    },
+    {
+      "id": 11,
+      "name": "Savate",
+      "countryId": 10,
+      "focusId": 1
+    },
+    {
+      "id": 12,
+      "name": "Brazilian Jiu-Jitsu",
+      "countryId": 13,
+      "focusId": 2
+    },
+    {
+      "id": 13,
+      "name": "Catch Wrestling",
+      "countryId": 12,
+      "focusId": 2
+    },
+    {
+      "id": 14,
+      "name": "Folkstyle Wrestling",
+      "countryId": 14,
+      "focusId": 2
+    }
+  ],
+  "focuses": [
+    {
+      "id": 1,
+      "focus": "Striking"
+    },
+    {
+      "id": 2,
+      "focus": "Grappling"
+    },
+    {
+      "id": 3,
+      "focus": "Weapons"
+    },
+    {
+      "id": 4,
+      "focus": "Hybrid"
+    }
+  ],
+  "countries": [
+    {
+      "id": 1,
+      "name": "Japan",
+      "continentId": 2
+    },
+    {
+      "id": 2,
+      "name": "Thailand",
+      "continentId": 2
+    },
+    {
+      "id": 3,
+      "name": "China",
+      "continentId": 2
+    },
+    {
+      "id": 4,
+      "name": "Korea",
+      "continentId": 2
+    },
+    {
+      "id": 5,
+      "name": "Thailand",
+      "continentId": 2
+    },
+    {
+      "id": 6,
+      "name": "Indonesia",
+      "continentId": 2
+    },
+    {
+      "id": 7,
+      "name": "The Phillipines",
+      "continentId": 2
+    },
+    {
+      "id": 8,
+      "name": "Israel",
+      "continentId": 2
+    },
+    {
+      "id": 9,
+      "name": "Russia",
+      "continentId": 1
+    },
+    {
+      "id": 10,
+      "name": "France",
+      "continentId": 1
+    },
+    {
+      "id": 11,
+      "name": "Greece",
+      "continentId": 1
+    },
+    {
+      "id": 12,
+      "name": "United Kingdom",
+      "continentId": 1
+    },
+    {
+      "id": 13,
+      "name": "Brazil",
+      "continentId": 3
+    },
+    {
+      "id": 14,
+      "name": "United States",
+      "continentId": 4
+    }
+  ],
+  "continents": [
+    {
+      "id": 1,
+      "name": "Europe"
+    },
+    {
+      "id": 2,
+      "name": "Asia"
+    },
+    {
+      "id": 3,
+      "name": "South America"
+    },
+    {
+      "id": 4,
+      "name": "North America"
+    }
+  ],
+  "schools": [
+    {
+      "id": 1,
+      "name": "Evangelos Killer Sambo",
+      "martialArtsId": 9,
+      "location": "Moscow, Russia"
+    },
+    {
+      "id": 2,
+      "name": "Gracie Barra Jiu-Jitsu",
+      "martialArtsId": 12,
+      "location": "Murfreesboro, Tennessee"
+    },
+    {
+      "id": 3,
+      "name": "Stevens Family Taekwondo",
+      "martialArtsId": 1,
+      "location": "Murfreesboro, Tennessee"
+    }
+  ],
+  "interests": [
+    {}
+  ],
+  "answers": [
+    {}
+  ],
+  "questions": []
+}
